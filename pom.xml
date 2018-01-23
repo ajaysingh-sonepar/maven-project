@@ -69,9 +69,10 @@
 			        <muleVersion>3.8.5</muleVersion>
 			        <username>${mule.username}</username>
 			        <password>${mule.password}</password>
-				 <workerType>micro</workerType>
+				 <workerType>Micro</workerType>
 			        <redeploy>true</redeploy>
 			        <environment>Test</environment>
+			        <domain>default</domain>
 			    </configuration>
 			    <executions>
 			        <execution>
